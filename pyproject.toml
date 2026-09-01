@@ -7,7 +7,13 @@ authors = [
     { name = "Sukin Raj", email = "sukinraj332005@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "boto3>=1.43.83",
+    "fastapi>=0.141.1",
+    "pillow>=12.3.0",
+    "python-multipart>=0.0.32",
+    "uvicorn>=0.52.4",
+]
 
 [project.scripts]
 cooking-compass-image = "cooking_compass_image:main"
